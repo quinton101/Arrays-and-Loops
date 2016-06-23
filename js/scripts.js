@@ -6,6 +6,11 @@ $(document).ready(function() {
     var Item3 = $("#Item3").val();
     var Item4 = $("#Item4").val();
 
-    alert(Item1);
+  alert("Item1");
+  alert("Item2");
+  alert("Item3");
+  alert("Item4");
+
   });
+
 });
