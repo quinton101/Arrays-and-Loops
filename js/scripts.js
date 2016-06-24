@@ -1,10 +1,11 @@
 $(document).ready(function() {
   $("form#Favorites").submit(function(event) {
     event.preventDefault();
-    var Item1 = $("#Item1").val();
-    var Item2 = $("#Item2").val();
-    var Item3 = $("#Item3").val();
-    var Item4 = $("#Item4").val();
+    var Favorites = ["Item1", "Item2", "Item3", "Item4"]
+  //  var Item1 = $("#Item1").val();
+  //  var Item2 = $("#Item2").val();
+  //  var Item3 = $("#Item3").val();
+  //  var Item4 = $("#Item4").val();
 
   alert("Item1");
   alert("Item2");
